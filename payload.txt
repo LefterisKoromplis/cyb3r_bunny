@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Title:     Cyb3r bunny
+# Author:    Cyb3rbully @ 1ssue
+# Target:    Windows 7+
+# Version:   1.0
+#
+
+LED SETUP
+ATTACKMODE HID STORAGE
+
+GET SWITCH_POSITION
+
+LED ATTACK
+
+if [ -f "/root/udisk/payloads/switch2/kakscript.txt" ]; then
+        QUACK switch2/kakscript.txt
+        LED FINISH
+else
+    LED FAIL
+    echo "Unable to load kakscript.txt to path /root/udisk/payloads/${SWITCH_POSITION}/kakscript.txt" >> /root/error_log_kakScript.txt
+        exit 1
+fi

