@@ -24,5 +24,8 @@ Distributed under the GNU 3 license. See ``LICENSE`` for more information.
 4. Push to the branch (`git push origin`)
 5. Create a new Pull Request
 
+# Credits
+   * Special thanks to
+      * 1ssue
 
 
