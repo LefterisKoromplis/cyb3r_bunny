@@ -26,6 +26,6 @@ Distributed under the GNU 3 license. See ``LICENSE`` for more information.
 
 # Credits
    * Special thanks to
-      * 1ssue
+      * IsSUe
 
 
