@@ -1,8 +1,5 @@
 ![alt text](https://i.ytimg.com/vi/v723HK_qR-4/maxresdefault.jpg)
 
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 ## Installation
 * Clone the repository
 * Open up Hashbunny in editing mode (switch3)
